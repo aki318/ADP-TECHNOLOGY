@@ -1,0 +1,16 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "ADP",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon -e js,css,ejs,json app.js --watch app"
+  },
+  "author": "akash",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "reload": "^2.4.0"
+  }
+}
